@@ -1,0 +1,55 @@
+.talk-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.talk-header-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.talk-header-subtitle {
+  font-size: 1.1rem;
+  color: #6c757d;
+  max-width: 700px;
+  margin: 0 auto 40px auto;
+  line-height: 1.6;
+}
+
+.dark-mode.talk-header-subtitle {
+  color: #d3d3d3;
+}
+
+/* 🌟 Horizontal Flex Layout */
+.talks-container {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap; /* ensures it stays responsive */
+  gap: 25px;
+}
+
+/* Optional: Customize TalkCard width */
+.talks-container .talk-card {
+  flex: 1 1 300px;
+  max-width: 350px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.talks-container .talk-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .talks-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .talks-container .talk-card {
+    max-width: 90%;
+  }
+}
