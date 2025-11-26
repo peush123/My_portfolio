@@ -223,23 +223,39 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, // Set it to true to show the Work Experience section
-  experience: [
-    {
-      role: "Software Developer",
-      company: "Deetya Soft Pvt. Ltd",
-      companylogo: require("./assets/images/Deetya.png"), // replace with actual logo file if available
-      date: "September 2024 – Present",
-      desc: "Designing and developing robust backend systems using Java, Spring Boot, and Asterisk to enhance telecom automation and service reliability.",
-      descBullets: [
-        "Designed, developed, and maintained scalable backend applications using Java, Spring Boot, and Asterisk, ensuring high availability and reliability.",
-        "Implemented advanced call forwarding functionalities by integrating Asterisk AMI (Asterisk Manager Interface) with backend services to streamline telecom workflows.",
-        "Developed and secured RESTful APIs for user authentication, call handling, and account management, improving modularity and system integration.",
-        "Identified and optimized performance bottlenecks, improving system throughput and reducing response time.",
-        "Collaborated with cross-functional teams in agile environments to deliver robust software solutions aligned with business goals."
-      ]
-    }
-  ]
+display: true,
+experience: [
+{
+role: "Software Developer",
+company: "Deetya Soft Pvt. Ltd",
+companylogo: require("./assets/images/Deetya.png"),
+date: "September 2024 – November 2025",
+desc: "Designed and developed backend systems using Java, Spring Boot, and Asterisk to enhance telecom automation and service reliability.",
+descBullets: [
+"Designed, developed, and maintained scalable backend applications ensuring high availability and performance.",
+"Implemented advanced call workflows by integrating Asterisk AMI with backend services.",
+"Developed and secured RESTful APIs for authentication, call handling, and account management.",
+"Optimized application logic to improve system throughput and reduce response time.",
+"Collaborated with cross-functional teams in agile environments to deliver high-quality software solutions."
+]
+},
+{
+role: "Young Professional-II",
+company: "ICAR (New Delhi – Pusa)",
+companylogo: require("./assets/images/icar.png"),
+date: "November 2024 – Present",
+desc: "Working on AI/ML-based biotic and abiotic crop disease detection under the NASF project using deep learning and computer vision.",
+descBullets: [
+"Developing machine-learning pipelines for data collection, preprocessing, augmentation, labeling, and dataset balancing.",
+"Training and evaluating CNN architectures such as VGG, EfficientNet, ResNet, and custom models for disease identification.",
+"Implementing optimization techniques like transfer learning, learning-rate tuning, early stopping, and hyperparameter search.",
+"Working with Python, TensorFlow, Keras, OpenCV, and NumPy for model development and image analysis.",
+"Building automated scripts for training, prediction, and large-scale batch inference.",
+"Collaborating with scientists to validate model outputs and refine datasets and architectures.",
+"Contributing to documentation, dataset preparation, and reporting aligned with NASF project goals."
+]
+}
+]
 };
 
 
